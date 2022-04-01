@@ -1,23 +1,20 @@
 {
-  "name": "test-express",
+  "name": "corsoits",
   "version": "1.0.0",
-  "description": "il nostro bellissimo test express",
-  "main": "index.js",
+  "description": "quesot e' il materiale del corso its",
+  "main": "nuovofile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js"
+    "start": "node ./nuovofile.js",
+    "dev": "nodemon ./nuovofile.js",
+    "server": "nodemon ./simple-server.js",
+    "client": "nodemon ./simple-client.js"
+    
   },
-  "keywords": [
-    "express",
-    "node"
-  ],
-  "author": "Fabrizio Marconi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.2",
-    "express": "^4.17.3"
-  },
-  "devDependencies": {
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.15"
   }
 }
